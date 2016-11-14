@@ -144,6 +144,7 @@ func (tx *Transaction) SigHash() common.Hash {
 		tx.data.Recipient,
 		tx.data.Amount,
 		tx.data.Payload,
+		50,
 	})
 }
 
